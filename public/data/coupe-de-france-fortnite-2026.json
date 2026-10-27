@@ -1,0 +1,15 @@
+{
+  "gameNumber": 1,
+  "standings": [
+    { "id": "duo-01", "name": "JOUEUR / JOUEUR", "eliminations": 24, "points": 180 },
+    { "id": "duo-02", "name": "JOUEUR / JOUEUR", "eliminations": 21, "points": 165 },
+    { "id": "duo-03", "name": "JOUEUR / JOUEUR", "eliminations": 19, "points": 152 },
+    { "id": "duo-04", "name": "JOUEUR / JOUEUR", "eliminations": 18, "points": 144 },
+    { "id": "duo-05", "name": "JOUEUR / JOUEUR", "eliminations": 16, "points": 130 },
+    { "id": "duo-06", "name": "JOUEUR / JOUEUR", "eliminations": 14, "points": 121 },
+    { "id": "duo-07", "name": "JOUEUR / JOUEUR", "eliminations": 12, "points": 110 },
+    { "id": "duo-08", "name": "JOUEUR / JOUEUR", "eliminations": 10, "points": 98 },
+    { "id": "duo-09", "name": "JOUEUR / JOUEUR", "eliminations": 8, "points": 85 },
+    { "id": "duo-10", "name": "JOUEUR / JOUEUR", "eliminations": 6, "points": 72 }
+  ]
+}

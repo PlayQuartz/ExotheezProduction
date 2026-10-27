@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Microsport Bold';
+  src: url('/events/coupe-de-france-fortnite-2026/fonts/microsport-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+/* Original Photoshop coordinates on the shared 1920 x 1080 canvas. */
+.cdf-leaderboard { position: absolute; inset: 0; color: #fff; }
+.cdf-artwork { position: absolute; inset: 0; width: 1920px; height: 1080px; }
+.cdf-standings { position: absolute; top: 446px; left: 0; width: 1920px; padding: 0; margin: 0; list-style: none; }
+.cdf-row { position: relative; height: 44px; line-height: 44px; }
+.cdf-row > span { position: absolute; display: block; white-space: nowrap; }
+.cdf-rank, .cdf-eliminations, .cdf-total { top: 4px; font-family: 'Microsport Bold', 'Arial Black', Arial, sans-serif; font-weight: 700; font-variant-numeric: tabular-nums; }
+.cdf-rank { left: 147px; font-size: 31px; }
+.cdf-duo { left: 274px; width: 1060px; overflow: hidden; text-overflow: ellipsis; font: 700 24px/44px Arial, sans-serif; }
+.cdf-eliminations { left: 1398px; width: 110px; text-align: center; color: #a8aaab; font-size: 27px; }
+.cdf-total { right: 186px; width: 145px; text-align: right; font-size: 31px; }
+.cdf-row:first-child .cdf-rank, .cdf-row:first-child .cdf-total { color: #13f1f0; }
+.cdf-page-control { position: absolute; top: 403px; height: 42px; border: 0; padding: 0; background: transparent; cursor: pointer; }
+.cdf-previous { left: 124px; width: 110px; }
+.cdf-next { left: 1620px; width: 148px; }
+.cdf-page-control:disabled { cursor: default; }
+.cdf-page-control:focus-visible { outline: 2px solid #13f1f0; outline-offset: -2px; }
+.cdf-game-number { position: absolute; right: 30px; top: 30px; width: 300px; aspect-ratio: 303 / 77; }
+.cdf-game-content { position: relative; width: 303px; height: 77px; transform: scale(calc(300 / 303)); transform-origin: top left; }
+.cdf-game-number img { display: block; }
+.cdf-game-content > span { position: absolute; color: #171b1c; font-family: 'Microsport Bold', sans-serif; font-weight: 700; line-height: 1; white-space: nowrap; }
+.cdf-game-current { left: 150px; top: 27px; width: 64px; text-align: center; font-size: 41.56px; }
+.cdf-game-total { left: 241px; top: 35px; width: 42px; text-align: center; font-size: 30.68px; }
+.cdf-popup { position: absolute; right: 30px; top: 136.24px; width: 300px; aspect-ratio: 303 / 496; }
+.cdf-popup-content { position: relative; width: 303px; height: 496px; transform: scale(calc(300 / 303)); transform-origin: top left; }
+.cdf-popup-content > img { display: block; }
+.cdf-popup-rows { position: absolute; left: 0; top: 51px; width: 303px; list-style: none; margin: 0; padding: 0; }
+.cdf-popup-row { position: relative; height: 44px; color: #fff; }
+.cdf-popup-row > span { position: absolute; display: block; white-space: nowrap; }
+.cdf-popup-rank { left: 17px; top: 16px; font: 700 18px/18px 'Microsport Bold', sans-serif; }
+.cdf-popup-name { left: 59px; top: 14px; width: 165px; overflow: hidden; text-overflow: ellipsis; font: 700 14.4px/20px Arial, sans-serif; }
+.cdf-popup-points { right: 24px; top: 17px; width: 48px; text-align: right; font: 700 18px/18px 'Microsport Bold', sans-serif; }
+.cdf-popup-row.is-leader .cdf-popup-rank, .cdf-popup-row.is-leader .cdf-popup-points { color: #13f1f0; }
+.cdf-popup-row.is-dead > span { opacity: .2; }
+.cdf-popup-content > .cdf-popup-lower-artwork { position: absolute; left: 0; top: 24px; }
+.cdf-popup-qualified { padding-top: 5px; position: absolute; left: 2px; right: 1px; height: 24px; display: flex; align-items: center; justify-content: center; background: linear-gradient(#202b2d, #202b2d) padding-box, linear-gradient(to right, #13efee, #185051) border-box; border-top: 2px solid transparent; border-bottom: 2px solid transparent; color: #13f1f0; font: 700 11px/1 'Microsport Bold', sans-serif; letter-spacing: 1px; }

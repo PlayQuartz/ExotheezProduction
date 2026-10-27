@@ -1,0 +1,22 @@
+.viewport { position: fixed; inset: 0; overflow: hidden; background: transparent; }
+.viewport-cdf-leaderboard { background: #171b1c; }
+.canvas { position: absolute; top: 0; left: 0; width: 1920px; height: 1080px; transform-origin: top left; overflow: hidden; }
+.viewport-cdf-leaderboard .canvas { top: 50%; left: 50%; transform-origin: center; }
+.panel { background: #111722f5; color: #f5f7fb; border-top: 6px solid var(--accent); }
+.panel header { padding: 28px 36px; }
+.panel span { color: var(--accent); text-transform: uppercase; letter-spacing: .16em; font-size: 18px; }
+.panel h1 { font-size: 48px; margin: 10px 0; text-transform: uppercase; }
+.panel p { color: #b5c0d0; margin: 0; font-size: 22px; }
+.leaderboard { position: absolute; left: 240px; top: 100px; width: 1440px; }
+.panel table { width: 100%; border-collapse: collapse; text-align: left; }
+.panel th { font-size: 16px; text-transform: uppercase; color: #aab6c9; padding: 16px 36px; background: #ffffff08; }
+.panel td { padding: 20px 36px; border-top: 1px solid #ffffff15; font-size: 28px; font-weight: 600; }
+.panel th:first-child { width: 130px; }
+.panel th:last-child, .panel td:last-child { text-align: right; color: var(--accent); }
+.popup { position: absolute; right: 60px; top: 180px; width: 560px; }
+.popup h1 { font-size: 34px; }
+.popup span { font-size: 14px; }
+.popup th, .popup td { padding: 18px 24px; }
+.popup td { font-size: 22px; }
+.popup th:first-child { width: 90px; }
+.game { position: absolute; top: 60px; left: 60px; padding: 24px 36px; min-width: 280px; }
